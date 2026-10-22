@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Secrets — never commit these
+.env
+*.key
+
+# Data, model weights and large artifacts (download from source instead)
+*.zip
+*.h5
+*.pt
+*.pth
+*.onnx
+*.bin
+*.ckpt
+data/
+datasets/
+*.csv
+
+# Notebook / run outputs
+outputs/
+eval_videos/
+videos/
+*.mp4
+logs/
+*.log
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
